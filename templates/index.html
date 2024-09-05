@@ -72,6 +72,7 @@
         const layerConfigUrl = '{{ url_for("static", filename="config/layers.json") }}';
         const mobileStationConfigUrl = '{{ url_for("static", filename="config/mobile_stations.json") }}';
         const fixedStationConfigUrl = '{{ url_for("static", filename="config/fixed_stations.json") }}';
+        const variablesUrl = '{{ url_for("static", filename="config/variables.json") }}';
         const windImagesUrl = '{{ url_for("static", filename="images/wind") }}';
         document.addEventListener('DOMContentLoaded', () => {
             initializeProjectControls(windImagesUrl);

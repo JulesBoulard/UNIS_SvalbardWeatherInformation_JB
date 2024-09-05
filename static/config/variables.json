@@ -1,29 +1,37 @@
-{
-    "variables": {
-        "airTemperature": {
-            "unit": "°C",
-            "minValue": -40,
-            "maxValue": 50
-        },
-        "seaSurfaceTemperature": {
-            "unit": "°C",
-            "minValue": -2,
-            "maxValue": 35
-        },
-        "windSpeed": {
-            "unit": "m/s",
-            "minValue": 0,
-            "maxValue": 100
-        },
-        "windDirection": {
-            "unit": "°",
-            "minValue": 0,
-            "maxValue": 360
-        },
-        "relativeHumidity": {
-            "unit": "%",
-            "minValue": 0,
-            "maxValue": 100
-        }
+[
+    {
+        "id": "airTemperature",
+        "unit": "°C",
+        "minValue": -40,
+        "maxValue": 50,
+        "text": "Air Temperature"
+    },
+    {
+        "id": "seaSurfaceTemperature",
+        "unit": "°C",
+        "minValue": -2,
+        "maxValue": 35,
+        "text": "Sea Surface Temperature"
+    },
+    {
+        "id": "windSpeed",
+        "unit": "m/s",
+        "minValue": 0,
+        "maxValue": 100,
+        "text": "Wind Speed"
+    },
+    {
+        "id": "windDirection",
+        "unit": "°",
+        "minValue": 0,
+        "maxValue": 360,
+        "text": "Wind Direction"
+    },
+    {
+        "id": "relativeHumidity",
+        "unit": "%",
+        "minValue": 0,
+        "maxValue": 100,
+        "text": "Relative Humidity"
     }
-}
+]
